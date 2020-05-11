@@ -41,4 +41,4 @@ RUN cd /usr/local/bin && \
     ln -s /usr/bin/pip3 pip && \
     pip install --upgrade pip setuptools
 
-RUN pip install pip install jinja2==2.11.2 markupsafe==1.1.1 boto3==1.13.7
+RUN pip install jinja2==2.11.2 markupsafe==1.1.1 boto3==1.13.7
